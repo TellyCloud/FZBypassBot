@@ -24,16 +24,13 @@ async def start_msg(client, message):
     
     <i><b>Bot Started {convert_time(time() - BOT_START)} ago...</b></i>
 
-🛃 <b>Use Me Here :</b> @TELLYPunkGrp <i>(Bypass Topic)</i>""",
+🛃 <b>Use Me Here :</b> @TELLYByPassGrp <i>(Bypass Topic)</i>""",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("🎓 Dev", url="https://t.me/TELLYCLOUD_BOTS"),
-                    InlineKeyboardButton(
-                        "🔍 Deploy Own",
-                        url="https://t.me/tellyhubsupports",
-                    ),
+                    InlineKeyboardButton("🔍 Deploy Own", url="https://t.me/tellyhubsupports"),
                 ]
             ]
         ),
