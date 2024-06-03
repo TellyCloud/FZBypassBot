@@ -52,6 +52,7 @@ async def direct_link_checker(link, onlylink=False):
     elif any(
         x in domain
         for x in [
+            "freeterabox",
             "1024tera",
             "terabox",
             "nephobox",
